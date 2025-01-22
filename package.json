@@ -13,11 +13,12 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "homepage": "https://github.com/sujeong-jang-creator/250122/",
+  "homepage": "https://사용자이름.github.io/저장소이름",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "4.0.3",
+    "gh-pages": "^3.2.3"
   },
   "browserslist": {
     "production": [
@@ -30,8 +31,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
   }
 }
