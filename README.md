@@ -32,10 +32,19 @@
      "deploy": "gh-pages -d build"
    }
    ```
-2. GitHub Pages를 사용하여 배포합니다:
+2. `gh-pages` 패키지를 설치합니다:
+   ```sh
+   npm install gh-pages --save-dev
+   ```
+3. GitHub Pages를 사용하여 배포합니다:
    ```sh
    npm run deploy
    ```
+
+## 사이트 접속
+
+배포된 애플리케이션은 다음 URL에서 확인할 수 있습니다:
+[https://사용자이름.github.io/저장소이름](https://사용자이름.github.io/저장소이름)
 
 ## 기여
 
