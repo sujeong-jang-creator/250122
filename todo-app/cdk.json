@@ -1,0 +1,7 @@
+{
+  "app": "npx ts-node bin/todo-app.ts",
+  "context": {
+    "@aws-cdk/core:stackId": "todo-app"
+  },
+  "version": "2.0"
+}

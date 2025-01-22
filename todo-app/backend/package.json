@@ -1,0 +1,27 @@
+{
+  "name": "todo-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Todo application using AWS services with CDK.",
+  "main": "bin/todo-app.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "^1.100.0",
+    "@aws-cdk/aws-cognito": "^1.100.0",
+    "@aws-cdk/aws-apigateway": "^1.100.0",
+    "@aws-cdk/aws-lambda": "^1.100.0",
+    "aws-cdk": "^1.100.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/node": "^14.0.0",
+    "ts-node": "^9.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
